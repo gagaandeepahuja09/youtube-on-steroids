@@ -1,0 +1,39 @@
+.SideDrawer {
+	position: fixed;
+	z-index: 400;
+	top: 0;
+	left: 0;
+	width: 360px;
+	height: 100%;
+	transition: transform .5s ease-out;
+	color: white;
+	background-color: #262626;
+	cursor: pointer;
+	border-right: 4px solid white;
+}
+
+.SideDrawer ul {
+	list-style-type: none;
+}
+
+.SideDrawer li {
+	border-bottom: 1px solid white;
+}
+
+.SideDrawer li:hover {
+	background-color: #ccc;
+}
+
+.col-1-of-2 {
+	width: 40%;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
+.Open {
+	transform: translateX(0);
+}
+
+.Closed {
+	transform: translateX(-100%);
+}

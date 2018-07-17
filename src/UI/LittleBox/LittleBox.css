@@ -1,0 +1,22 @@
+.LittleBox {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	background-color: transparent;
+	color: white;
+	text-align: center; 
+	top: 0;
+	left: 0;
+	z-index: 400;
+	font-weight: bolder;
+	font-size: 3.2rem;
+	cursor: pointer;
+}
+
+.Box2 {
+	height : 100%;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
